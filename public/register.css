@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto',
+    sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #777;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#login-box {
+    position: relative;
+    margin: 5% auto;
+    height: 400px;
+    width: 600px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.left-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    /* font-family: sans-serif; */
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+input[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    /* background: #f44336; */
+    background-color: #1A1A1d;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    /* background: #ff5722; */
+    background-color: #1A1A1d;
+    transition: 0.2s ease;
+}
+
+.right-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+    /* background-image: url(http://www.psdgraphics.com/file/colorful-triangles-background.jpg); */
+    background-color: #1A1A1d;
+    background-size: cover;
+    background-position: center;
+}
+
+.or {
+    position: absolute;
+    top: 180px;
+    left: 280px;
+    width: 40px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    line-height: 40px;
+    text-align: center;
+}
+
+.right-box .signinwith {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+button.social {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    /* font-family: sans-serif; */
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.facebook {
+    background: #32508e;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.google {
+    background: #dd4b39;
+}
+.signup{
+    margin-top:130px;
+}
+#getImage{
+    margin-left:47%;
+    margin-top:-170px;
+}
+#getImage img{
+    width:500px;
+    height:300px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+#operationCss{
+    margin-top:150px;
+    margin-left:250px;
+}
+#box{
+    display:flex;
+    flex-direction:row;
+    width:96%;
+    height:96%;
+    margin-top:130px;
+    margin-left:50px;
+}
+#logo{
+    margin-left:50px;
+}
+#logo img{
+    width:270px;
+    height:250px;
+    border:1px solid #fff;
+    border-radius: 30px;
+}
+#main{
+    color:#1A1A1d;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    margin-left: 30px;
+}
+#start {
+margin-bottom: -15px;
+}
+#end{
+    margin-top:20px;
+    margin-left:68.5%;
+}
+#main span{
+    font-weight: 1000;
+    font-size:60px;
+    
+}
+#digital{
+    color:#dd4b39;
+}
+#processing{
+    color:#55acee;
+}
+#about{
+color:#1A1A1d;
+font-family:'Courier New',Courier,monospace;
+margin-top:90px;
+margin-left: 50px;
+}
+#about h1{
+    font-size:50px;
+    font-weight:bolder;
+}
+#about p {
+    margin-left:15%;
+    font-size:20px;
+}
+#footerText{
+    padding-bottom:15px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #2d3674; */
+    /* background: linear-gradient(to bottom, #0066ff 0%, #009999 100%); */
+    background-color: #1A1A1d;
+    height: auto;
+    width: 100vw;
+    padding-top: 20px;
+    color: #fff;
+}

@@ -1,0 +1,21 @@
+body{
+    background-color:#efefef;
+    font-family: 'Courier New', Courier, monospace;
+}
+#link_document {
+    font-family: 'Courier New', Courier, monospace;
+    font: size 50px;
+    font-weight: 1000;
+    color: #55acee;
+    margin:20px;
+}
+#manageList{
+margin-left:40px;
+
+}
+#setList{
+    margin-left: 90px;
+}
+#setList li{
+    margin:3px;
+}

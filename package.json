@@ -1,0 +1,35 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js -e js,hbs,py",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.10",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "multer": "^1.4.4",
+    "python-shell": "^3.0.1",
+    "upng-js": "^2.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulWahabRaza123/Dioperations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AbdulWahabRaza123/Dioperations/issues"
+  },
+  "homepage": "https://github.com/AbdulWahabRaza123/Dioperations#readme",
+  "description": ""
+}

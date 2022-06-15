@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerLinks}}
+    <title>Operations</title>
+  </head>
+  <body>
+    {{>navbar}}
+    {{!-- <form action="/operation" method="post">
+      <input type="submit" name="operationName" value="Binarization" />
+    </form> --}}
+    <br><br>
+    <form id="operationCss" action="/operation" method="post">
+      <h4>Enter the Operation Name:</h4>
+      <input
+        type="text"
+        name="operationName"
+        placeholder="Please Write in small letter"
+        autocomplete="on"
+      />
+      <input type="submit" value="Get Result" />
+    </form>
+    <div id="getImage">
+      <img src="/images/temp.jpg" alt="image" srcset="">
+    </div>
+     {{>footer}}
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

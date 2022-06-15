@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{>headerLinks}}
+    <title>Login</title>
+  </head>
+  <body>
+{{>navbar}}
+    <div class="container">
+      <div class="signup">
+        
+          <div id="login-box">
+    <div class="left-box">
+      <h1> Select Image </h1>
+      <br><br>
+      <form action="/imp" title="temp" enctype="multipart/form-data" method="post">
+      <input type="file" name="image"><br><br>
+      <input type="submit" name="binarize-button" placeholder="Binarization"/>
+      </form>
+    </div>
+    <div class="right-box">
+      <span class="signinwith">Sign in or register to</br>use advance options<br>for image processing<br>operations. </span>
+      {{!-- <button class="social facebook">Log in with Facebook</button>
+      <button class="social twitter">Log in with Twitter</button>
+      <button class="social google">Log in with Google+</button> --}}
+    
+    </div>
+    <div class="or">OR</div>
+  </div> 
+  {{>footer}}
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
